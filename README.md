@@ -1,0 +1,3 @@
+This repository demonstrates a common error encountered when using the filter method on arrays in Swift.  Specifically, the issue lies in handling edge cases where the input array is empty or contains no elements that match the filtering criteria.
+
+The `bug.swift` file contains the erroneous code, showing how unexpected results can occur when an empty array is passed to `filter`.  The `bugSolution.swift` file presents a corrected version, which utilizes optional binding to account for an empty array gracefully.
